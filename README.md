@@ -1,4 +1,4 @@
-# auto-wifi-switcher
+# auto-wifi-proxy-switcher
 
 僕の同期が作ってくれたmacのネットワーク環境を自動で切り替えるツールを大学のプロキシやgitに対応させたものです．
 

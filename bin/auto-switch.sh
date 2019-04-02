@@ -2,8 +2,8 @@
 
 echo "auto-wifi-switcher is running"
 
-HTTP_PROXY_NAME="http://学籍ID:パズワード@proxy.doshisha.ac.jp:8080"
-HTTPS_PROXY_NAME="https://学籍ID:パスワード@proxy.doshisha.ac.jp:8080"
+HTTP_PROXY_NAME="http://学籍ID:パズワード@プロキシアドレス:ポート番号"
+HTTPS_PROXY_NAME="https://学籍ID:パスワード@プロキシアドレス:ポート番号"
 
 # ネットワーク環境名（研究室用）
 LAB_NETWORK="NISlab"

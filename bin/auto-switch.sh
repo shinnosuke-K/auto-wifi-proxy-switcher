@@ -19,13 +19,13 @@ serch_ssid() {
   echo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s | grep "$1"
 }
 
-if [ "serch_ssid LAB_SSID" == 0 ]; then
+if [ "serch_ssid LAB_SSID" = 0 ]; then
   scselect $LAB_NETWORK
   git config --global http.proxy $HTTP_PROXY_NAME
   git config --global https.proxy $HTTPS_PROXY_NAME
   git config --global url."https://".insteadOf git://
 
-elif [ "serch_ssid PRI_SSID" == 0 ]; then
+elif [ "serch_ssid PRI_SSID" = 0 ]; then
   scselect $PRI_NETWORK
   git config --global --unset http.proxy
   git config --global --unset https.proxy

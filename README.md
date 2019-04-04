@@ -7,10 +7,10 @@ SSID一覧を監視し、変更があった場合にjobを実行します.
 
 ## Requirement
 
- * nislabと名前のついたネットワーク環境をあらかじめ作成しておく必要があります.
+* nislabと名前のついたネットワーク環境をあらかじめ作成しておく必要があります.
 
    (作成方法は先輩に聞いてね)
- * SSIDがKE-101-1である前提で作られています.
+* SSIDがKE-101-1である前提で作られています.
 
 ![2018-04-14 13 19 59](https://user-images.githubusercontent.com/12538942/38764428-c00d2eaa-3fe9-11e8-8227-c5644b92eb2b.png)
 
@@ -20,7 +20,7 @@ SSID一覧を監視し、変更があった場合にjobを実行します.
 
 （アドレスなどがわからなかったらこれも先輩に聞いて）
 
-```
+```bash
 HTTP_PROXY_NAME
 HTTPS_PROXY_NAME
 ```
@@ -33,7 +33,7 @@ HTTPS_PROXY_NAME
 
 研究室の場合は
 
-```
+```bash
 LAB_NETWORK
 LAB_SSID
 ```
@@ -41,7 +41,8 @@ LAB_SSID
 という環境変数になっていますので、これに設定
 
 個人的に作成した場合は
-```
+
+```bash
 PRI_NETWORK
 PRI_SSID
 ```
@@ -66,12 +67,12 @@ git config --global --unset url."https://".insteadOf
 
 でやってます．（いらないなら消して）
 
-
 ## 使いかた
 
 ```sh
 make install
 ```
+
 で終わりです
 
 ## アンインストールする
@@ -80,10 +81,10 @@ make install
 make uninstall
 ```
 
-# 最後に
+## 最後に
+
 僕の同期が作ってくれたものを，ベースになっているので同期に感謝ですね
 
 あと，ある状況下では動作しない可能性があるのであしからず
-
 
 動かないなどがあれば教えてください

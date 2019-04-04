@@ -6,9 +6,9 @@ HTTP_PROXY_NAME="http://学籍ID:パズワード@プロキシアドレス:ポー
 HTTPS_PROXY_NAME="https://学籍ID:パスワード@プロキシアドレス:ポート番号"
 
 # ネットワーク環境名（研究室用）
-LAB_NETWORK="NISlab"
+LAB_NETWORK=""
 # 研究室のSSID
-LAB_SSID="KE-101-1"
+LAB_SSID=""
 
 # ネットワーク環境（プライベート用）
 PRI_NETWORK=""

@@ -2,7 +2,7 @@
 
 echo "auto-wifi-switcher is running"
 
-HTTP_PROXY_NAME="http://学籍ID:パズワード@プロキシアドレス:ポート番号"
+HTTP_PROXY_NAME="http://学籍ID:パスワード@プロキシアドレス:ポート番号"
 HTTPS_PROXY_NAME="https://学籍ID:パスワード@プロキシアドレス:ポート番号"
 
 # ネットワーク環境名（研究室用）
